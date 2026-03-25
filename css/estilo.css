@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Oswald:wght@200..700&display=swap');
+
+
+
+body {
+
+    /*background-color: black;*/
+    /*background-color: rgb(0, 0, 0)*/
+    /*background-color: #000000;*/
+    /*background: linear-gradient(45deg, rgba(16, 79, 181, 0.717), black);*/
+    /*background: radial-gradient(purple, rgba(34, 161, 240, 0.31));*/
+    /*background-repeat*/
+    background-image: url("../recursos/img/fundo.png.png");
+
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+img#persona {
+
+    width: 180px;
+    height: 180px;
+
+    border-radius: 100px;
+    /* border: 10px solid white;   widht style color*/
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3)
+}
+
+
+.titulos {
+
+    color: white;
+    text-align: center;
+
+
+}
+
+h1 {
+
+    font-family: "Changa One", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+}
+
+h2 {
+
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+
+}
+
+figure {
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.botao {
+
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.botao:hover {
+
+    background-color: rgb(185, 201, 222);
+    font-size: 20px;
+    transform: scale(1.1);
+
+}
+
+.material-symbols-outlined {
+
+    color: white;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 1000,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+#rodape {
+
+    display: flex
+}
+
+.icones {
+
+    margin: 10px;
+    margin-top: 50px;
+}
+
+svg:hover {
+
+    fill: rgb(214, 252, 0);
+    cursor: pointer;
+
+    transform: scale(1.2);
+
+
+}
