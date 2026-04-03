@@ -7,30 +7,33 @@ $(function(){
     var subtitulo = $("#subtitulo");
     var icones = $("svg");
     var fundo = $("body");
-    
+    var botao_modoescuro = $("#modoescuro")
+    var escrita = $ ("escrita")
+    var modoescuro = false
 
     //PROCESSAMENTO
-        
-        titulo.click(()=>{
-
-            botoes.css("background-color","black");
-
-        })
-        
-
-
-        titulo.dblclick(()=>{
-            fundo.html( "<h1> Alterado pelo JS  </h1>");
-
-        })
-
-        subtitulo.click(()=>{
-
-            icones.css("background-color", "black")
+        botao_modoescuro.click(()=>{
+          
+            
+            if (modoescuro == false){
+                 
+                botoes.css("background-color" , "black")
+                botoes.css ("color" , "white")
+                modoescuro = true;
 
 
-        })
+            }else{
+                
+                    botoes.css("background-color" , "white")
+                    botoes.css ("color" , "black")
+                    modoescuro = false;
 
+
+
+            }
+
+        });
+    
 
     //SAIDA
 
