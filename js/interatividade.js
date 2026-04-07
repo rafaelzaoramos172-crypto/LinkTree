@@ -20,17 +20,23 @@ $(function(){
                 botoes.css("background-color" , "black")
                 botoes.css ("color" , "white")
                 modoescuro = true;
-
-
+                fundo.css("background-image", "url('../recursos/img/fundoescuro.jpg') ");
+                titulo.css("color" , "white")
+                subtitulo.css("color", "white")
             }else{
                 
                     botoes.css("background-color" , "white")
-                    botoes.css ("color" , "black")
+                    botoes.css ("color" , "black    ")
                     modoescuro = false;
-
+                    fundo.css("background-image", "url('../recursos/img/fundooriginal.jpg')")
+                    titulo.css("color" , "black")
+                    subtitulo.css("color" , "black")
 
 
             }
+
+
+
 
         });
     
